@@ -26,7 +26,7 @@ line.tokens = [string]
  
 */
 
-var kSvarasthanaREStr = '([SrRgGmMPdDnN][\\+\\-]*)|[,_]';
+var kSvarasthanaREStr = '([sSrRgGmMpPdDnN][\\+\\-]*)|[,_]';
 var kSvarasthanaTokenREStr = '(' + kSvarasthanaREStr + ')+';
 var kSvarasthanaLineTokenRE = new RegExp('^' + kSvarasthanaTokenREStr + '$');
 
